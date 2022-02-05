@@ -1,5 +1,5 @@
 import '../styles/globals.css'
-import withRedux, { createWrapper } from "next-redux-wrapper";
+import { createWrapper } from "next-redux-wrapper";
 import store from '../redux/store';
 import { Provider } from 'react-redux';
 import { AppProps } from 'next/dist/shared/lib/router/router';
